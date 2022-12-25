@@ -156,7 +156,6 @@ MonoBehaviour:
   timeControl: 1
   myScore: 0
   myCube: {fileID: 832912071}
-  rotatingSpeed: 0.2
   passiveCube: {fileID: 529121152}
   timeDelay: 0
 --- !u!4 &85172553

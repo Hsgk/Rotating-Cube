@@ -36,7 +36,6 @@ public class timeManager : MonoBehaviour
     {
         myCube.transform.Rotate(rotatingSpeed*Time.deltaTime, 0, 0);    //küp dönmesi
         angleValue = Quaternion.Angle(myCube.transform.rotation, passiveCube.transform.rotation);   //dönen küp ve referans küp arasýndaki açý
-        Debug.Log(angleValue);
     }
 
     public void scoreUpdater()
